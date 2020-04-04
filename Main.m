@@ -1,2 +1,5 @@
 %% Dividing Data
-T = readtable('PPDataSheet.xlsx')
+L = readtable('PPDataSheet.xlsx') %loading table
+T = L(7700:end,:)
+
+%%
